@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReturnFlow | 반품 접수 및 로봇 자동 판정</title>
+    <meta
+      name="description"
+      content="로그인 없이 반품 요청을 접수하고 로봇 자동 판정 상태를 추적하는 데모 서비스"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" data-link>
+          <span class="brand-mark">RF</span>
+          <span class="brand-text">
+            <strong>ReturnFlow</strong>
+            <small>Robot Return Judgment</small>
+          </span>
+        </a>
+        <nav class="site-nav">
+          <a href="/" data-link>서비스 소개</a>
+          <a href="/request" data-link>반품 접수</a>
+          <a href="/status" data-link>상태 확인</a>
+        </nav>
+      </header>
+
+      <main id="app"></main>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+  </html>

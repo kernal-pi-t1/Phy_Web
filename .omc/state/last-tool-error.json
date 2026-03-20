@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"(type -p wget >/dev/null || (echo \\\"1234qwer\\\" | sudo -S apt update && echo \\\"1234qwer\\\" | sudo -S apt-get install wget -y)) && echo \\\"1234qwer\\\" | sudo -S mkdir -p -m 755 /etc/apt/keyring...",
+  "error": "Exit code 100\n[sudo] password for robot: \nWARNING: apt does not have a stable CLI interface. Use with caution in scripts.\n\nE: 소스 리스트 /etc/apt/sources.list.d/github-cli.list의 1번 줄이 잘못되었습니다 (타입)\nE: 소스 목록을 읽을 수 없습니다.",
+  "timestamp": "2026-03-20T20:22:05.438Z",
+  "retry_count": 1
+}
