@@ -65,6 +65,43 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "server.js",
+      "accessCount": 2,
+      "lastAccessed": 1774038358758,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1774038313107,
+      "type": "file"
+    },
+    {
+      "path": "public/index.html",
+      "accessCount": 1,
+      "lastAccessed": 1774038316680,
+      "type": "file"
+    },
+    {
+      "path": "public/app.js",
+      "accessCount": 1,
+      "lastAccessed": 1774038317157,
+      "type": "file"
+    },
+    {
+      "path": "docs/SPEC.md",
+      "accessCount": 1,
+      "lastAccessed": 1774038317654,
+      "type": "file"
+    },
+    {
+      "path": "public/styles.css",
+      "accessCount": 1,
+      "lastAccessed": 1774038317973,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
